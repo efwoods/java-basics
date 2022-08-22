@@ -1,8 +1,8 @@
 public class prog {
     public static void main(String[] args) {
-        int Minutes_Spent = 110;
+        int Minutes_Spent = 148;
         float Total_pages = 991;
-        float pages_read = 22;
+        float pages_read = 28;
 
         // try{
         //     pages_read = Integer.valueOf(args[0]);

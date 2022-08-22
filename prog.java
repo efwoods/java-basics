@@ -1,14 +1,16 @@
 public class prog {
     public static void main(String[] args) {
-        int Minutes_Spent = 90;
+        int Minutes_Spent = 110;
         float Total_pages = 991;
-        float pages_read = 15;
-        try{
-            pages_read = Integer.valueOf(args[0]);
-        } catch(Error e) {
-            pages_read = 15;
-            Minutes_Spent = 90;
-        }
+        float pages_read = 22;
+
+        // try{
+        //     pages_read = Integer.valueOf(args[0]);
+        // } catch(Error e) {
+
+        //     Minutes_Spent = 110;
+        // }
+        
         System.out.println(pages_read);
         float Percent_Complete = (pages_read/Total_pages) * 100;
         float Remaining_Percent = 100 - Percent_Complete;
